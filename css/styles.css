@@ -58,6 +58,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--text-logo-blue-color);
+  margin-right: 76px;
 }
 
 .logo-header {
@@ -90,13 +91,27 @@ body {
   border-bottom: 1px solid var(--border-color-filtres-btn);
 }
 .div-header {
+  min-width: 1440px;
+  height: 72px;
   display: flex;
-  .header-nav {
-    display: flex;
-  }
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav-list {
+  gap: 40px;
+  display: flex;
+}
+
 .header-nav-link {
   color: var(--text-secondary-color);
+}
+.header-nav-last {
+  margin-right: 332px;
 }
 
 .header-nav-link:hover,
@@ -106,6 +121,13 @@ body {
 
 .header-address {
   font-style: normal;
+}
+.header-adress-item {
+  display: flex;
+  padding: 24px 0;
+  gap: 40px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .header-address-link {
