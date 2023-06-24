@@ -98,12 +98,11 @@ body {
   border-bottom: 1px solid var(--border-color-filtres-btn);
 }
 .div-header {
-  min-width: 1158px;
+  min-width: 1400px;
   height: 72px;
   display: flex;
   margin-top: 24px;
   margin-bottom: 24px;
-  margin: 0 auto;
 }
 .header-nav {
   display: flex;
@@ -257,6 +256,7 @@ body {
 .team-list {
   display: flex;
   gap: 24px;
+  list-style: none;
 }
 
 .team-item {
