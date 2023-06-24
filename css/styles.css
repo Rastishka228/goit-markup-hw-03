@@ -69,6 +69,11 @@ body {
   color: var(--text-logo-ligt-color);
 }
 
+.section-hero {
+  padding: 188px 0;
+  max-width: 496px;
+}
+
 /* Section-title */
 
 .section-title {
@@ -79,6 +84,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--text-secondary-color);
+  margin-bottom: 72px;
 }
 
 /* Header */
@@ -86,6 +92,7 @@ body {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+  display: flex;
 }
 .header {
   border-bottom: 1px solid var(--border-color-filtres-btn);
@@ -109,9 +116,12 @@ body {
 
 .header-nav-link {
   color: var(--text-secondary-color);
+  padding: 24px 0;
 }
 .header-nav-last {
   margin-right: 332px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .header-nav-link:hover,
@@ -124,15 +134,15 @@ body {
 }
 .header-adress-item {
   display: flex;
-  padding: 24px 0;
+
   gap: 40px;
-  margin-top: 24px;
-  margin-bottom: 24px;
 }
 
 .header-address-link {
   font-weight: 400;
   color: var(--text-main-color);
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .header-address-link:hover,
@@ -149,6 +159,7 @@ body {
 
 .hero {
   background-color: var(--bg-dark-color);
+  padding: 188px 0;
 }
 
 .hero-title {
@@ -167,6 +178,14 @@ body {
   letter-spacing: 0.04em;
   color: var(--text-white-color);
   background-color: var(--bg-btn-hero);
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 auto;
+  display: block;
 }
 
 .hero-button:hover,
@@ -178,9 +197,33 @@ body {
 }
 
 /* Features section */
+.features {
+  padding: 120px 0;
+}
 
-.features-title {
+.features-titles {
   letter-spacing: 0.02em;
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+}
+.features-list {
+  display: flex;
+  gap: 24px;
+}
+.features-title {
+  width: calc((100% - 72px) / 4);
 }
 
 .features-subtitle {
@@ -189,6 +232,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--text-secondary-color);
+  margin-bottom: 8px;
 }
 
 .features-text {
@@ -197,15 +241,33 @@ body {
 }
 
 /* What are we doing section */
+.work {
+  padding-bottom: 120px;
+}
+.work-list {
+  display: flex;
+  gap: 24px;
+  flex-basis: calc((100% - 48px) / 3);
+}
 
 /* Our Team section */
 
 .team {
   background-color: var(--bg-ligt-grey-color);
+  padding: 120px 0;
+}
+.team-list {
+  display: flex;
+  gap: 24px;
 }
 
 .team-item {
   background-color: var(--bg-color);
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+.div-item {
+  padding: 32px 16px;
 }
 
 .team-subtitle {
@@ -215,21 +277,29 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--text-secondary-color);
+  text-align: center;
+  margin-bottom: 8px;
 }
 
 .team-text {
   font-weight: 400;
+  text-align: center;
 }
 
 /* Footer section */
 
 .footer {
   background-color: var(--bg-dark-color);
+  padding: 100px 0;
 }
-
+.ft {
+  display: inline-block;
+  margin-bottom: 16px;
+}
 .footer-text {
   font-weight: 400;
   color: var(--text-footer-color);
+  max-width: 264px;
 }
 
 /* Portfolio */
