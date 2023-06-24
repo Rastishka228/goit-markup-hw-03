@@ -98,11 +98,12 @@ body {
   border-bottom: 1px solid var(--border-color-filtres-btn);
 }
 .div-header {
-  min-width: 1440px;
+  min-width: 1158px;
   height: 72px;
   display: flex;
   margin-top: 24px;
   margin-bottom: 24px;
+  margin: 0 auto;
 }
 .header-nav {
   display: flex;
@@ -118,11 +119,6 @@ body {
   color: var(--text-secondary-color);
   padding: 24px 0;
 }
-.header-nav-last {
-  margin-right: 332px;
-  margin-top: 24px;
-  margin-bottom: 24px;
-}
 
 .header-nav-link:hover,
 .header-nav-link:focus {
@@ -134,8 +130,6 @@ body {
 }
 .header-adress-item {
   display: flex;
-
-  gap: 40px;
 }
 
 .header-address-link {
@@ -143,11 +137,15 @@ body {
   color: var(--text-main-color);
   margin-top: 24px;
   margin-bottom: 24px;
+  gap: 40px;
 }
 
 .header-address-link:hover,
 .header-address-link:focus {
   color: var(--text-hover-link-blue);
+}
+.hal {
+  margin-left: 332px;
 }
 
 /* Main */
