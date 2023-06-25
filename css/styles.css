@@ -92,7 +92,6 @@ body {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  display: flex;
 }
 .header {
   border-bottom: 1px solid var(--border-color-filtres-btn);
@@ -256,7 +255,6 @@ body {
 .team-list {
   display: flex;
   gap: 24px;
-  list-style: none;
 }
 
 .team-item {
