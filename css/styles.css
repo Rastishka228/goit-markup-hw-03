@@ -115,7 +115,7 @@ body {
 
 .header-nav-link {
   color: var(--text-secondary-color);
-  padding: 24px 0;
+  padding: 24px 0 24px;
 }
 
 .header-nav-link:hover,
@@ -128,6 +128,7 @@ body {
 }
 .header-adress-item {
   display: flex;
+  gap: 40px;
 }
 
 .header-address-link {
@@ -141,9 +142,6 @@ body {
 .header-address-link:hover,
 .header-address-link:focus {
   color: var(--text-hover-link-blue);
-}
-.hal {
-  margin-left: 332px;
 }
 
 /* Main */
@@ -199,20 +197,19 @@ body {
 
 .features-titles {
   letter-spacing: 0.02em;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
 
-  .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .features-list {
   display: flex;
