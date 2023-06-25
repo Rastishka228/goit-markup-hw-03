@@ -110,7 +110,7 @@ body {
 
 .header-nav-link {
   color: var(--text-secondary-color);
-  padding: 24px 0 24px;
+  padding-bottom: 24px;
 }
 
 .header-nav-link:hover,
