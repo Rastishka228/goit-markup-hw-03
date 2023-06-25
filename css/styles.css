@@ -237,6 +237,7 @@ body {
   display: flex;
   gap: 24px;
   flex-basis: calc((100% - 48px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 
 /* Our Team section */
