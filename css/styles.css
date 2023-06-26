@@ -343,10 +343,11 @@ body {
   margin-bottom: 72px;
 }
 .portfolio-link {
-  display: block;
+  display: flex;
   width: calc((100% - 48px) / 3);
 }
-.porlink {
+ul {
+  padding-left: 0;
 }
 .portfolio-div {
   padding: 32px 16px;
