@@ -343,8 +343,8 @@ body {
   margin-bottom: 72px;
 }
 .portfolio-link {
-  display: flex;
-  width: calc((1158px - 48px) / 3);
+  display: block;
+  width: calc((100% - 48px) / 3);
 }
 .porlink {
 }
