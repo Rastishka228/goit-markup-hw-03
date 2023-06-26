@@ -339,12 +339,12 @@ body {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  padding: none;
+
   margin-bottom: 72px;
 }
 .portfolio-link {
   display: flex;
-  width: calc((100% - 48px) / 3);
+  width: calc((1158px - 48px) / 3);
 }
 .porlink {
 }
