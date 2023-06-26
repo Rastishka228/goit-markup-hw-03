@@ -111,6 +111,8 @@ body {
 
 .header-nav-link {
   color: var(--text-secondary-color);
+}
+.hnl {
   padding: 24px 0 24px;
 }
 
