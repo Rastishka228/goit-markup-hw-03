@@ -112,6 +112,7 @@ body {
 .header-nav-link {
   color: var(--text-secondary-color);
   padding-bottom: 24px;
+  padding: 24px 0;
 }
 
 .header-nav-link:hover,
